@@ -1,0 +1,108 @@
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+> options(scipen=999)
+> # Expand lines in the console
+> 
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> mean(cities)
+[1] NA
+
+> #minimum temperature
+> 
+> #maximum temperature
+> 
+Warning message:
+In mean.default(cities) : argument is not numeric or logical: returning NA
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> mean(dataframe$cities)
+Error in mean(dataframe$cities) : object 'dataframe' not found
+> source("~/.active-rstudio-document", echo=TRUE)
+Error in source("~/.active-rstudio-document", echo = TRUE) : 
+  ~/.active-rstudio-document:17:5: unexpected '$'
+16: #minimum temperature
+17: min($
+        ^
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> mean(citise)
+Error in mean(citise) : object 'citise' not found
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> colMeans(cities)
+     London      Manila Helsingfors    New_York   Hong_Kong    Pretoria      Sidney       Tokyo      Madrid   Stockholm 
+  13.033333   32.533333    3.266667   16.100000   25.466667   23.633333   15.600000   20.333333   16.800000   10.000000 
+
+> #minimum temperature
+> 
+> 
+> #maximum temperature
+> 
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> colMeans(cities)
+     London      Manila Helsingfors    New_York   Hong_Kong    Pretoria      Sidney       Tokyo      Madrid   Stockholm 
+  13.033333   32.533333    3.266667   16.100000   25.466667   23.633333   15.600000   20.333333   16.800000   10.000000 
+
+> #minimum temperature
+> colMin(cities)
+Error in colMin(cities) : could not find function "colMin"
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> colMeans(cities)
+     London      Manila Helsingfors    New_York   Hong_Kong    Pretoria      Sidney       Tokyo      Madrid   Stockholm 
+  13.033333   32.533333    3.266667   16.100000   25.466667   23.633333   15.600000   20.333333   16.800000   10.000000 
+
+> #minimum temperature
+> cities %>% summarise_if(is.numeric, min)
+  London Manila Helsingfors New_York Hong_Kong Pretoria Sidney Tokyo Madrid Stockholm
+1      7     27          -4        9        16       17      4    10      9         2
+
+> #maximum temperature
+> 
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #average temperature
+> colMeans(cities)
+     London      Manila Helsingfors    New_York   Hong_Kong    Pretoria      Sidney       Tokyo      Madrid   Stockholm 
+  13.033333   32.533333    3.266667   16.100000   25.466667   23.633333   15.600000   20.333333   16.800000   10.000000 
+
+> #minimum temperature
+> cities %>% summarise_if(is.numeric, min)
+  London Manila Helsingfors New_York Hong_Kong Pretoria Sidney Tokyo Madrid Stockholm
+1      7     27          -4        9        16       17      4    10      9         2
+
+> #maximum temperature
+> cities %>% summarise_if(is.numeric, max)
+  London Manila Helsingfors New_York Hong_Kong Pretoria Sidney Tokyo Madrid Stockholm
+1     21     35           9       26        30       33     33    28     25        19

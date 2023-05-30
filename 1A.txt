@@ -1,0 +1,1000 @@
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$manila)
+
+> manila_ave <- lon_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$helsingfors)
+
+> helsingfors_ave <- lon_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$new_york)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$hong_kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temprature)
+Error in data.frame(city, ave_temprature) : 
+  object 'ave_temprature' not found
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$manila)
+
+> manila_ave <- lon_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$helsingfors)
+
+> helsingfors_ave <- lon_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$new_york)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$hong_kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$manila)
+
+> manila_ave <- lon_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$helsingfors)
+
+> helsingfors_ave <- lon_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$new_york)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$hong_kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+
+> #print dataframe of average temperature
+> print(ave_temperature)
+ [1] 13.03333 13.03333 13.03333  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$manila)
+
+> manila_ave <- lon_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$helsingfors)
+
+> helsingfors_ave <- lon_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$new_york)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$hong_kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+
+> #print dataframe of average temperature
+> print(average_temperature)
+Error in print(average_temperature) : 
+  object 'average_temperature' not found
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$manila)
+
+> manila_ave <- man_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$helsingfors)
+
+> helsingfors_ave <- hel_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$new_york)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$hong_kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+
+> #print dataframe of average temperature
+> print(average_temperatur)
+          city ave_temperature
+1       London        13.03333
+2       Manila         0.00000
+3  Helsingfors         0.00000
+4     New York         0.00000
+5    Hong Kong         0.00000
+6     Pretoria         0.00000
+7       Sidney         0.00000
+8        Tokyo         0.00000
+9       Madrid         0.00000
+10   Stockholm         0.00000
+> stockholm_ave
+[1] 0
+> source("~/.active-rstudio-document", echo=TRUE)
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$Manila)
+
+> manila_ave <- man_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$Helsingfors)
+
+> helsingfors_ave <- hel_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$New_York)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$Hong_Kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$Pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$Sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$Tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$Madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$Stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+
+> #print dataframe of average temperature
+> print(average_temperatur)
+          city ave_temperature
+1       London       13.033333
+2       Manila       32.533333
+3  Helsingfors        3.266667
+4     New York       16.100000
+5    Hong Kong       25.466667
+6     Pretoria       23.633333
+7       Sidney       15.600000
+8        Tokyo       20.333333
+9       Madrid       16.800000
+10   Stockholm       10.000000
+> source("~/familj/max temperatur 1A.r", echo=TRUE)
+
+> #open dplyr
+> library("dplyr")
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> # vector for Maximum temp for london + -50
+> london_max <- -50
+
+> #for loop and the dataframe cities + column London
+> for (i in cities$London) {
++   #if statement, if value in dataframe+col is highest among the va .... [TRUNCATED] 
+
+> # Maxtemperatur for Manila
+> manila_max <- -50
+
+> for (i in cities$Manila) {
++   if (i > manila_max) {
++     manila_max <- i
++   }
++ }
+
+> # Maxtemperatur for Helsingfors
+> helsingfors_max <- -50
+
+> for (i in cities$Helsingfors) {
++   if (i > helsingfors_max) {
++     helsingfors_max <- i
++   }
++ }
+
+> # Maxtemperatur for New York
+> new_york_max <- -50
+
+> for (i in cities$New_York) {
++   if (i > new_york_max) {
++     new_york_max <- i
++   }
++ }
+
+> # Maxtemperatur for Hong Kong
+> hong_kong_max <- -50
+
+> for (i in cities$Hong_Kong) {
++   if (i > hong_kong_max) {
++     hong_kong_max <- i
++   }
++ }
+
+> # Maxtemperatur for Pretoria
+> pretoria_max <- -50
+
+> for (i in cities$Pretoria) {
++   if (i > pretoria_max) {
++     pretoria_max <- i
++   }
++ }
+
+> # Maxtemperatur for Sidney
+> sidney_max <- -50
+
+> for (i in cities$Sidney) {
++   if (i > sidney_max) {
++     sidney_max <- i
++   }
++ }
+
+> # Maxtemperatur for Tokyo
+> tokyo_max <- -50
+
+> for (i in cities$Tokyo) {
++   if (i > tokyo_max) {
++     tokyo_max <- i
++   }
++ }
+
+> # Maxtemperatur for Madrid
+> madrid_max <- -50
+
+> for (i in cities$Madrid) {
++   if (i > madrid_max) {
++     madrid_max <- i
++   }
++ }
+
+> # Maxtemperatur for Stockholm
+> stockholm_max <- -50
+
+> for (i in cities$Stockholm) {
++   if (i > stockholm_max) {
++     stockholm_max <- i
++   }
++ }
+
+> #vector with the temperatures
+> max_temperature <- c(london_max,manila_max,helsingfors_max,new_york_max,hong_kong_max,pretoria_max,sidney_max,tokyo_ .... [TRUNCATED] 
+
+> #vector with the names of the cities
+> city <-c("London", "Manila", "Helsingfors", "New York", "Hong Kong", "Pretoria", "Sidney", "Tokyo", "Madrid", .... [TRUNCATED] 
+
+> #dataframe over maximum temperature
+> maximum_temperature <- data.frame(city, max_temperature)
+
+> #print dataframe over maximum temperatures over 10 cities
+> print(maximum_temperature)
+          city max_temperature
+1       London              21
+2       Manila              35
+3  Helsingfors               9
+4     New York              26
+5    Hong Kong              30
+6     Pretoria              33
+7       Sidney              33
+8        Tokyo              28
+9       Madrid              25
+10   Stockholm              19
+
+> # vector for Minimum temp for london + +50
+> london_min <- +50
+
+> #for loop and the dataframe cities + column London
+> for (i in cities$London) {
++   #if statement, if value in dataframe+col is lowest among the vau .... [TRUNCATED] 
+
+> # Mintemperatur for Manila
+> manila_min <- +50
+
+> for (i in cities$Manila) {
++   if (i < manila_min) {
++     manila_min <- i
++   }
++ }
+
+> # Mimtemperatur for Helsingfors
+> helsingfors_min <- +50
+
+> for (i in cities$Helsingfors) {
++   if (i < helsingfors_min) {
++     helsingfors_min <- i
++   }
++ }
+
+> # Mintemperatur for New York
+> new_york_min <- +50
+
+> for (i in cities$New_York) {
++   if (i < new_york_min) {
++     new_york_min <- i
++   }
++ }
+
+> # Mintemperatur for Hong Kong
+> hong_kong_min <- +50
+
+> for (i in cities$Hong_Kong) {
++   if (i < hong_kong_min) {
++     hong_kong_min <- i
++   }
++ }
+
+> # Mintemperatur for Pretoria
+> pretoria_min <- +50
+
+> for (i in cities$Pretoria) {
++   if (i < pretoria_min) {
++     pretoria_min <- i
++   }
++ }
+
+> # Mintemperatur for Sidney
+> sidney_min <- +50
+
+> for (i in cities$Sidney) {
++   if (i < sidney_min) {
++     sidney_min <- i
++   }
++ }
+
+> # Mintemperatur for Tokyo
+> tokyo_min <- +50
+
+> for (i in cities$Tokyo) {
++   if (i < tokyo_min) {
++     tokyo_min <- i
++   }
++ }
+
+> # Mintemperatur for Madrid
+> madrid_min <- +50
+
+> for (i in cities$Madrid) {
++   if (i < madrid_min) {
++     madrid_min <- i
++   }
++ }
+
+> # Mintemperatur for Stockholm
+> stockholm_min <- +50
+
+> for (i in cities$Stockholm) {
++   if (i < stockholm_min) {
++     stockholm_min <- i
++   }
++ }
+
+> #vector with the minimum temperatures
+> min_temperature <- c(london_min,manila_min,helsingfors_min,new_york_min,hong_kong_min,pretoria_min,sidney_mi .... [TRUNCATED] 
+
+> #dataframe over minimum temperature
+> minimum_temperature <- data.frame(city, min_temperature)
+
+> #print dataframe over minimum temperatures over 10 cities
+> print(minimum_temperature)#create a vector for London's average temperature and it's sum
+          city min_temperature
+1       London               7
+2       Manila              27
+3  Helsingfors              -4
+4     New York               9
+5    Hong Kong              16
+6     Pretoria              17
+7       Sidney               4
+8        Tokyo              10
+9       Madrid               9
+10   Stockholm               2
+
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$Manila)
+
+> manila_ave <- man_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$Helsingfors)
+
+> helsingfors_ave <- hel_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$New_York)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$Hong_Kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$Pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$Sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$Tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$Madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$Stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+
+> #print dataframe of average temperature
+> print(average_temperatur)
+          city ave_temperature
+1       London       13.033333
+2       Manila       32.533333
+3  Helsingfors        3.266667
+4     New York       16.100000
+5    Hong Kong       25.466667
+6     Pretoria       23.633333
+7       Sidney       15.600000
+8        Tokyo       20.333333
+9       Madrid       16.800000
+10   Stockholm       10.000000
+> source("~/familj/max temperatur 1A.r", echo=TRUE)
+
+> #open dplyr
+> library("dplyr")
+
+> #writing down cities and their temperatures in a dataframe
+> cities <- data.frame(London = c(7,8,10,15,10,9,8,7,8,9,15,14,12,12,10,11,12,16,17,17,17 .... [TRUNCATED] 
+
+> # vector for Maximum temp for london + -50
+> london_max <- -50
+
+> #for loop and the dataframe cities + column London
+> for (i in cities$London) {
++   #if statement, if value in dataframe+col is highest among the va .... [TRUNCATED] 
+
+> # Maxtemperatur for Manila
+> manila_max <- -50
+
+> for (i in cities$Manila) {
++   if (i > manila_max) {
++     manila_max <- i
++   }
++ }
+
+> # Maxtemperatur for Helsingfors
+> helsingfors_max <- -50
+
+> for (i in cities$Helsingfors) {
++   if (i > helsingfors_max) {
++     helsingfors_max <- i
++   }
++ }
+
+> # Maxtemperatur for New York
+> new_york_max <- -50
+
+> for (i in cities$New_York) {
++   if (i > new_york_max) {
++     new_york_max <- i
++   }
++ }
+
+> # Maxtemperatur for Hong Kong
+> hong_kong_max <- -50
+
+> for (i in cities$Hong_Kong) {
++   if (i > hong_kong_max) {
++     hong_kong_max <- i
++   }
++ }
+
+> # Maxtemperatur for Pretoria
+> pretoria_max <- -50
+
+> for (i in cities$Pretoria) {
++   if (i > pretoria_max) {
++     pretoria_max <- i
++   }
++ }
+
+> # Maxtemperatur for Sidney
+> sidney_max <- -50
+
+> for (i in cities$Sidney) {
++   if (i > sidney_max) {
++     sidney_max <- i
++   }
++ }
+
+> # Maxtemperatur for Tokyo
+> tokyo_max <- -50
+
+> for (i in cities$Tokyo) {
++   if (i > tokyo_max) {
++     tokyo_max <- i
++   }
++ }
+
+> # Maxtemperatur for Madrid
+> madrid_max <- -50
+
+> for (i in cities$Madrid) {
++   if (i > madrid_max) {
++     madrid_max <- i
++   }
++ }
+
+> # Maxtemperatur for Stockholm
+> stockholm_max <- -50
+
+> for (i in cities$Stockholm) {
++   if (i > stockholm_max) {
++     stockholm_max <- i
++   }
++ }
+
+> #vector with the temperatures
+> max_temperature <- c(london_max,manila_max,helsingfors_max,new_york_max,hong_kong_max,pretoria_max,sidney_max,tokyo_ .... [TRUNCATED] 
+
+> #vector with the names of the cities
+> city <-c("London", "Manila", "Helsingfors", "New York", "Hong Kong", "Pretoria", "Sidney", "Tokyo", "Madrid", .... [TRUNCATED] 
+
+> #dataframe over maximum temperature
+> maximum_temperature <- data.frame(city, max_temperature)
+
+> # vector for Minimum temp for london + +50
+> london_min <- +50
+
+> #for loop and the dataframe cities + column London
+> for (i in cities$London) {
++   #if statement, if value in dataframe+col is lowest among the vau .... [TRUNCATED] 
+
+> # Mintemperatur for Manila
+> manila_min <- +50
+
+> for (i in cities$Manila) {
++   if (i < manila_min) {
++     manila_min <- i
++   }
++ }
+
+> # Mimtemperatur for Helsingfors
+> helsingfors_min <- +50
+
+> for (i in cities$Helsingfors) {
++   if (i < helsingfors_min) {
++     helsingfors_min <- i
++   }
++ }
+
+> # Mintemperatur for New York
+> new_york_min <- +50
+
+> for (i in cities$New_York) {
++   if (i < new_york_min) {
++     new_york_min <- i
++   }
++ }
+
+> # Mintemperatur for Hong Kong
+> hong_kong_min <- +50
+
+> for (i in cities$Hong_Kong) {
++   if (i < hong_kong_min) {
++     hong_kong_min <- i
++   }
++ }
+
+> # Mintemperatur for Pretoria
+> pretoria_min <- +50
+
+> for (i in cities$Pretoria) {
++   if (i < pretoria_min) {
++     pretoria_min <- i
++   }
++ }
+
+> # Mintemperatur for Sidney
+> sidney_min <- +50
+
+> for (i in cities$Sidney) {
++   if (i < sidney_min) {
++     sidney_min <- i
++   }
++ }
+
+> # Mintemperatur for Tokyo
+> tokyo_min <- +50
+
+> for (i in cities$Tokyo) {
++   if (i < tokyo_min) {
++     tokyo_min <- i
++   }
++ }
+
+> # Mintemperatur for Madrid
+> madrid_min <- +50
+
+> for (i in cities$Madrid) {
++   if (i < madrid_min) {
++     madrid_min <- i
++   }
++ }
+
+> # Mintemperatur for Stockholm
+> stockholm_min <- +50
+
+> for (i in cities$Stockholm) {
++   if (i < stockholm_min) {
++     stockholm_min <- i
++   }
++ }
+
+> #vector with the minimum temperatures
+> min_temperature <- c(london_min,manila_min,helsingfors_min,new_york_min,hong_kong_min,pretoria_min,sidney_mi .... [TRUNCATED] 
+
+> #dataframe over minimum temperature
+> minimum_temperature <- data.frame(city, min_temperature)
+
+> #create a vector for London's average temperature and it's sum
+> lon_ave <- sum(cities$London)
+
+> #create a new vector with the sum of london's values divided by 30
+> london_ave <- lon_ave/30
+
+> #Manilas average temperature
+> man_ave <- sum(cities$Manila)
+
+> manila_ave <- man_ave/30
+
+> #Helsingfors average temperature
+> hel_ave <- sum(cities$Helsingfors)
+
+> helsingfors_ave <- hel_ave/30
+
+> #New York's average temperature
+> new_ave <- sum(cities$New_York)
+
+> new_york_ave <- new_ave/30
+
+> #Hong Kong's average temperature
+> hon_ave <- sum(cities$Hong_Kong)
+
+> hong_kong_ave <- hon_ave/30
+
+> #Pretoria's average temperature
+> pre_ave <- sum(cities$Pretoria)
+
+> pretoria_ave <- pre_ave/30
+
+> #Sidney's average temperature
+> sid_ave <- sum(cities$Sidney)
+
+> sidney_ave <- sid_ave/30
+
+> #Tokyo's average temperature
+> tok_ave <- sum(cities$Tokyo)
+
+> tokyo_ave <- tok_ave/30
+
+> #Madrid's average temperature
+> mad_ave <- sum(cities$Madrid)
+
+> madrid_ave <- mad_ave/30
+
+> #Stockholm's average temperature
+> sto_ave <- sum(cities$Stockholm)
+
+> stockholm_ave <- sto_ave/30
+
+> #vector with all the average temperatures in it
+> ave_temperature <- c(london_ave,manila_ave,helsingfors_ave,new_york_ave,hong_kong_ave,pretoria_ave .... [TRUNCATED] 
+
+> #Create a dataframe for the average temperatures
+> average_temperatur<- data.frame(city, ave_temperature)
+
+> #print dataframe over maximum temperatures over 10 cities
+> print(maximum_temperature)
+          city max_temperature
+1       London              21
+2       Manila              35
+3  Helsingfors               9
+4     New York              26
+5    Hong Kong              30
+6     Pretoria              33
+7       Sidney              33
+8        Tokyo              28
+9       Madrid              25
+10   Stockholm              19
+
+> #print dataframe over minimum temperatures over 10 cities
+> print(minimum_temperature)
+          city min_temperature
+1       London               7
+2       Manila              27
+3  Helsingfors              -4
+4     New York               9
+5    Hong Kong              16
+6     Pretoria              17
+7       Sidney               4
+8        Tokyo              10
+9       Madrid               9
+10   Stockholm               2
+
+> #print dataframe of average temperature
+> print(average_temperatur)
+          city ave_temperature
+1       London       13.033333
+2       Manila       32.533333
+3  Helsingfors        3.266667
+4     New York       16.100000
+5    Hong Kong       25.466667
+6     Pretoria       23.633333
+7       Sidney       15.600000
+8        Tokyo       20.333333
+9       Madrid       16.800000
+10   Stockholm       10.000000
